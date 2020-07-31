@@ -9,7 +9,7 @@ import java.io.IOException;
         BufferedReader reader;
         try {
             reader = new BufferedReader(new FileReader(
-                    "C://Users//CAP//IdeaProjects//untitled//src//dataFiles//Academic_record.txt"));
+                    "Academic_record.txt"));
             String line = reader.readLine();
             while (line != null) {
                 System.out.println(line);
@@ -32,7 +32,7 @@ import java.io.IOException;
         BufferedReader reader;
         try {
             reader = new BufferedReader(new FileReader(
-                    "C://Users//CAP//IdeaProjects//untitled//src//dataFiles//Personal_record.txt"));
+                    "Personal_record.txt"));
             String line = reader.readLine();
             while (line != null) {
                 System.out.println(line);
